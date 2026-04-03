@@ -9,8 +9,9 @@
         "lint": "next lint"
     },
     "dependencies": {
-        "@solana/web3.js": "1.98.4",
+        "@sentry/nextjs": "^10.45.0",
         "@solana-program/compute-budget": "0.3.0",
+        "@solana/web3.js": "1.98.4",
         "next": "14.2.35",
         "react": "18.3.1",
         "react-dom": "18.3.1",
@@ -21,13 +22,11 @@
             "@solana-program/compute-budget": "0.3.0",
             "@solana/web3.js": "1.98.4"
         },
-        "patchedDependencies": {
-            "@solana-developers/helpers@2.8.1": "patches/@solana-developers__helpers@2.8.1.patch"
-        },
         "ignoredBuiltDependencies": [
             "bigint-buffer",
             "bufferutil",
             "utf-8-validate"
         ]
-    }
+    },
+    "packageManager": "pnpm@10.27.0"
 }
