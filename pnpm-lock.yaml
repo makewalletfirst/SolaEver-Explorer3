@@ -78,6 +78,9 @@ importers:
       '@mantine/hooks':
         specifier: 7.17.3
         version: 7.17.3(react@18.3.1)
+      '@metaplex-foundation/beet':
+        specifier: ^0.7.2
+        version: 0.7.2
       '@metaplex-foundation/mpl-token-metadata':
         specifier: 1.1.0
         version: 1.1.0(bufferutil@4.0.7)(typescript@5.5.4)(utf-8-validate@5.0.10)
@@ -1799,6 +1802,9 @@ packages:
 
   '@metaplex-foundation/beet@0.7.1':
     resolution: {integrity: sha512-hNCEnS2WyCiYyko82rwuISsBY3KYpe828ubsd2ckeqZr7tl0WVLivGkoyA/qdiaaHEBGdGl71OpfWa2rqL3DiA==}
+
+  '@metaplex-foundation/beet@0.7.2':
+    resolution: {integrity: sha512-K+g3WhyFxKPc0xIvcIjNyV1eaTVJTiuaHZpig7Xx0MuYRMoJLLvhLTnUXhFdR5Tu2l2QSyKwfyXDgZlzhULqFg==}
 
   '@metaplex-foundation/cusper@0.0.2':
     resolution: {integrity: sha512-S9RulC2fFCFOQraz61bij+5YCHhSO9llJegK8c8Y6731fSi6snUSQJdCUqYS8AIgR0TKbQvdvgSyIIdbDFZbBA==}
@@ -5609,10 +5615,6 @@ packages:
     peerDependencies:
       postcss: ^8.1.0
 
-  available-typed-arrays@1.0.5:
-    resolution: {integrity: sha512-DMD0KiN46eipeziST1LPP/STfDU0sufISXmjSgvVsoU2tqxctQeASejWcfNtxYKqETM1UxQ8sp2OrSBWpHY6sw==}
-    engines: {node: '>= 0.4'}
-
   available-typed-arrays@1.0.7:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
@@ -5872,9 +5874,6 @@ packages:
   call-bind-apply-helpers@1.0.2:
     resolution: {integrity: sha512-Sp1ablJ0ivDkSzjcaJdxEunN5/XvksFJ2sMBFfq6x0ryhQV/2b/KwFe21cMpmHtPOSij8K99/wSfoEuTObmuMQ==}
     engines: {node: '>= 0.4'}
-
-  call-bind@1.0.2:
-    resolution: {integrity: sha512-7O+FbCihrB5WGbFYesctwmTKae6rOiIzmz1icreWJ+0aA7LJfuqhEso2T9ncpcFtzMQtzXf2QGGueWJGTYsqrA==}
 
   call-bind@1.0.8:
     resolution: {integrity: sha512-oKlSFMcMwpUg2ednkhQ454wfWiU/ul3CkJe/PEHcTKuiX6RpbehUiFMXu13HalGZxfUwCQzZG747YXBn1im9ww==}
@@ -6312,10 +6311,6 @@ packages:
   define-lazy-prop@3.0.0:
     resolution: {integrity: sha512-N+MeXYoqr3pOgn8xfyRPREN7gHakLYjhsHhWGT3fWAiL4IkAt0iDw14QiiEm2bE30c5XX5q0FtAA3CK5f9/BUg==}
     engines: {node: '>=12'}
-
-  define-properties@1.2.0:
-    resolution: {integrity: sha512-xvqAVKGfT1+UAvPwKTVw/njhdQ8ZhXK4lI0bCIuCMrp2up9nPnaDftrLtmpTazqd1o+UY4zgzU+avtMbDP+ldA==}
-    engines: {node: '>= 0.4'}
 
   define-properties@1.2.1:
     resolution: {integrity: sha512-8QmQKqEASLd5nx0U1B1okLElbUuuttJ/AnYmRXbbbGDWh6uS208EjD4Xqq/I9wK7u0v6O08XhTWnt5XtEbR6Dg==}
@@ -6960,9 +6955,6 @@ packages:
       debug:
         optional: true
 
-  for-each@0.3.3:
-    resolution: {integrity: sha512-jqYfLp7mo9vIyQf8ykW2v7A+2N4QjeCeI5+Dz9XraiO1ign81wjiH7Fb9vSOWvQfNtmSa4H2RoQTrrXivdUZmw==}
-
   for-each@0.3.5:
     resolution: {integrity: sha512-dKx12eRCVIzqCxFGplyFKJMPvLEWgmNtUrpTiJIR5u97zEhRG8ySrtboPHZXx7daLxQVrl643cTzbab2tkQjxg==}
     engines: {node: '>= 0.4'}
@@ -7148,9 +7140,6 @@ packages:
   has-flag@4.0.0:
     resolution: {integrity: sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==}
     engines: {node: '>=8'}
-
-  has-property-descriptors@1.0.0:
-    resolution: {integrity: sha512-62DVLZGoiEBDHQyqG4w9xCuZ7eJEwNmJRWw2VY84Oedb7WFcA27fiEVe8oUQx9hAUJ4ekurquucTGwsyO1XGdQ==}
 
   has-property-descriptors@1.0.2:
     resolution: {integrity: sha512-55JNKuIW+vq4Ke1BjOTjM2YctQIvCT7GFzHwmfZPGo5wnrgkid0YQtnAleFSqumZm4az3n2BS+erby5ipJdgrg==}
@@ -7564,10 +7553,6 @@ packages:
 
   is-symbol@1.1.1:
     resolution: {integrity: sha512-9gGx6GTtCQM73BgmHQXfDmLtfjjTUDSyoxTCbp5WtoixAhfgsDirWIcVQ/IHpvI5Vgd5i/J5F7B9cN/WlVbC/w==}
-    engines: {node: '>= 0.4'}
-
-  is-typed-array@1.1.10:
-    resolution: {integrity: sha512-PJqgEHiWZvMpaFZ3uTc8kHPM4+4ADTlDniuQL7cU/UDA0Ql7F70yGfHph3cLNe+c9toaigv+DFzTJKhc2CtO6A==}
     engines: {node: '>= 0.4'}
 
   is-typed-array@1.1.15:
@@ -8568,14 +8553,6 @@ packages:
 
   object-keys@1.1.1:
     resolution: {integrity: sha512-NuAESUOUMrlIXOfHKzD6bpPu3tYt3xvjNdRIQ+FeT0lNb4K8WR70CaDxhuNguS2XG+GjkyMwOzsN5ZktImfhLA==}
-    engines: {node: '>= 0.4'}
-
-  object.assign@4.1.4:
-    resolution: {integrity: sha512-1mxKf0e58bvyjSCtKYY4sRe9itRk3PJpquJOjeIkz885CczcI4IvJJDLPS72oowuSh+pBxUFROpX+TU++hxhZQ==}
-    engines: {node: '>= 0.4'}
-
-  object.assign@4.1.5:
-    resolution: {integrity: sha512-byy+U7gp+FVwmyzKPYhW2h5l3crpmGsxl7X2s8y43IgxvG4g3QZ6CffDtsNQy1WsmZpQbO+ybo0AlW7TY6DcBQ==}
     engines: {node: '>= 0.4'}
 
   object.assign@4.1.7:
@@ -10497,10 +10474,6 @@ packages:
 
   which-typed-array@1.1.19:
     resolution: {integrity: sha512-rEvr90Bck4WZt9HHFC4DJMsjvu7x+r6bImz0/BrbWb7A2djJ8hnZMrWnHo9F8ssv0OMErasDhftrfROTyqSDrw==}
-    engines: {node: '>= 0.4'}
-
-  which-typed-array@1.1.9:
-    resolution: {integrity: sha512-w9c4xkx6mPidwp7180ckYWfMmvxpjlZuIudNtDf4N/tTAUB8VJbX25qZoAsrtGuYNnGw3pa0AXgbGKRB8/EceA==}
     engines: {node: '>= 0.4'}
 
   which@2.0.2:
@@ -12552,7 +12525,7 @@ snapshots:
 
   '@metaplex-foundation/beet-solana@0.1.1(bufferutil@4.0.7)(typescript@5.5.4)(utf-8-validate@5.0.10)':
     dependencies:
-      '@metaplex-foundation/beet': 0.7.1
+      '@metaplex-foundation/beet': 0.7.2
       '@solana/web3.js': 1.98.4(bufferutil@4.0.7)(typescript@5.5.4)(utf-8-validate@5.0.10)
     transitivePeerDependencies:
       - bufferutil
@@ -12563,7 +12536,7 @@ snapshots:
 
   '@metaplex-foundation/beet-solana@0.3.1(bufferutil@4.0.7)(typescript@5.5.4)(utf-8-validate@5.0.10)':
     dependencies:
-      '@metaplex-foundation/beet': 0.7.1
+      '@metaplex-foundation/beet': 0.7.2
       '@solana/web3.js': 1.98.4(bufferutil@4.0.7)(typescript@5.5.4)(utf-8-validate@5.0.10)
       bs58: 5.0.0
       debug: 4.4.3
@@ -12576,7 +12549,7 @@ snapshots:
 
   '@metaplex-foundation/beet-solana@0.4.0(bufferutil@4.0.7)(typescript@5.5.4)(utf-8-validate@5.0.10)':
     dependencies:
-      '@metaplex-foundation/beet': 0.7.1
+      '@metaplex-foundation/beet': 0.7.2
       '@solana/web3.js': 1.98.4(bufferutil@4.0.7)(typescript@5.5.4)(utf-8-validate@5.0.10)
       bs58: 5.0.0
       debug: 4.4.3
@@ -12614,6 +12587,15 @@ snapshots:
   '@metaplex-foundation/beet@0.7.1':
     dependencies:
       ansicolors: 0.3.2
+      bn.js: 5.2.1
+      debug: 4.4.3
+    transitivePeerDependencies:
+      - supports-color
+
+  '@metaplex-foundation/beet@0.7.2':
+    dependencies:
+      ansicolors: 0.3.2
+      assert: 2.1.0
       bn.js: 5.2.1
       debug: 4.4.3
     transitivePeerDependencies:
@@ -12750,7 +12732,7 @@ snapshots:
 
   '@metaplex-foundation/mpl-token-metadata@2.13.0(bufferutil@4.0.7)(typescript@5.5.4)(utf-8-validate@5.0.10)':
     dependencies:
-      '@metaplex-foundation/beet': 0.7.1
+      '@metaplex-foundation/beet': 0.7.2
       '@metaplex-foundation/beet-solana': 0.4.0(bufferutil@4.0.7)(typescript@5.5.4)(utf-8-validate@5.0.10)
       '@metaplex-foundation/cusper': 0.0.2
       '@solana/spl-token': 0.3.8(@solana/web3.js@1.98.4(bufferutil@4.0.7)(typescript@5.5.4)(utf-8-validate@5.0.10))(bufferutil@4.0.7)(typescript@5.5.4)(utf-8-validate@5.0.10)
@@ -15902,7 +15884,7 @@ snapshots:
 
   '@solana/spl-account-compression@0.1.8(@solana/web3.js@1.98.4(bufferutil@4.0.7)(typescript@5.5.4)(utf-8-validate@5.0.10))(bufferutil@4.0.7)(typescript@5.5.4)(utf-8-validate@5.0.10)':
     dependencies:
-      '@metaplex-foundation/beet': 0.7.1
+      '@metaplex-foundation/beet': 0.7.2
       '@metaplex-foundation/beet-solana': 0.4.0(bufferutil@4.0.7)(typescript@5.5.4)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.98.4(bufferutil@4.0.7)(typescript@5.5.4)(utf-8-validate@5.0.10)
       bn.js: 5.2.1
@@ -17465,7 +17447,7 @@ snapshots:
 
   array-buffer-byte-length@1.0.0:
     dependencies:
-      call-bind: 1.0.2
+      call-bind: 1.0.8
       is-array-buffer: 3.0.2
 
   array-buffer-byte-length@1.0.1:
@@ -17608,7 +17590,7 @@ snapshots:
       call-bind: 1.0.8
       is-nan: 1.3.2
       object-is: 1.1.5
-      object.assign: 4.1.5
+      object.assign: 4.1.7
       util: 0.12.5
 
   assertion-error@2.0.1: {}
@@ -17644,8 +17626,6 @@ snapshots:
       picocolors: 1.1.1
       postcss: 8.5.3
       postcss-value-parser: 4.2.0
-
-  available-typed-arrays@1.0.5: {}
 
   available-typed-arrays@1.0.7:
     dependencies:
@@ -17973,11 +17953,6 @@ snapshots:
     dependencies:
       es-errors: 1.3.0
       function-bind: 1.1.2
-
-  call-bind@1.0.2:
-    dependencies:
-      function-bind: 1.1.2
-      get-intrinsic: 1.3.0
 
   call-bind@1.0.8:
     dependencies:
@@ -18412,7 +18387,7 @@ snapshots:
   deep-equal@2.2.1:
     dependencies:
       array-buffer-byte-length: 1.0.0
-      call-bind: 1.0.2
+      call-bind: 1.0.8
       es-get-iterator: 1.1.3
       get-intrinsic: 1.3.0
       is-arguments: 1.1.1
@@ -18423,12 +18398,12 @@ snapshots:
       isarray: 2.0.5
       object-is: 1.1.5
       object-keys: 1.1.1
-      object.assign: 4.1.4
+      object.assign: 4.1.7
       regexp.prototype.flags: 1.5.0
       side-channel: 1.0.4
       which-boxed-primitive: 1.0.2
       which-collection: 1.0.1
-      which-typed-array: 1.1.9
+      which-typed-array: 1.1.19
 
   deep-is@0.1.4: {}
 
@@ -18448,11 +18423,6 @@ snapshots:
   define-lazy-prop@2.0.0: {}
 
   define-lazy-prop@3.0.0: {}
-
-  define-properties@1.2.0:
-    dependencies:
-      has-property-descriptors: 1.0.0
-      object-keys: 1.1.1
 
   define-properties@1.2.1:
     dependencies:
@@ -18637,7 +18607,7 @@ snapshots:
       is-weakref: 1.0.2
       object-inspect: 1.13.4
       object-keys: 1.1.1
-      object.assign: 4.1.5
+      object.assign: 4.1.7
       regexp.prototype.flags: 1.5.2
       safe-array-concat: 1.1.2
       safe-regex-test: 1.0.3
@@ -18714,7 +18684,7 @@ snapshots:
 
   es-get-iterator@1.1.3:
     dependencies:
-      call-bind: 1.0.2
+      call-bind: 1.0.8
       get-intrinsic: 1.3.0
       has-symbols: 1.1.0
       is-arguments: 1.1.1
@@ -19380,10 +19350,6 @@ snapshots:
     optionalDependencies:
       debug: 4.4.3
 
-  for-each@0.3.3:
-    dependencies:
-      is-callable: 1.2.7
-
   for-each@0.3.5:
     dependencies:
       is-callable: 1.2.7
@@ -19575,10 +19541,6 @@ snapshots:
   has-bigints@1.0.2: {}
 
   has-flag@4.0.0: {}
-
-  has-property-descriptors@1.0.0:
-    dependencies:
-      get-intrinsic: 1.3.0
 
   has-property-descriptors@1.0.2:
     dependencies:
@@ -19844,14 +19806,14 @@ snapshots:
 
   is-arguments@1.1.1:
     dependencies:
-      call-bind: 1.0.2
+      call-bind: 1.0.8
       has-tostringtag: 1.0.2
 
   is-array-buffer@3.0.2:
     dependencies:
-      call-bind: 1.0.2
+      call-bind: 1.0.8
       get-intrinsic: 1.3.0
-      is-typed-array: 1.1.10
+      is-typed-array: 1.1.15
 
   is-array-buffer@3.0.4:
     dependencies:
@@ -19884,7 +19846,7 @@ snapshots:
 
   is-boolean-object@1.1.2:
     dependencies:
-      call-bind: 1.0.2
+      call-bind: 1.0.8
       has-tostringtag: 1.0.2
 
   is-boolean-object@1.2.2:
@@ -19989,7 +19951,7 @@ snapshots:
 
   is-regex@1.1.4:
     dependencies:
-      call-bind: 1.0.2
+      call-bind: 1.0.8
       has-tostringtag: 1.0.2
 
   is-regex@1.2.1:
@@ -20005,7 +19967,7 @@ snapshots:
 
   is-shared-array-buffer@1.0.2:
     dependencies:
-      call-bind: 1.0.2
+      call-bind: 1.0.8
 
   is-shared-array-buffer@1.0.3:
     dependencies:
@@ -20036,14 +19998,6 @@ snapshots:
       has-symbols: 1.1.0
       safe-regex-test: 1.1.0
 
-  is-typed-array@1.1.10:
-    dependencies:
-      available-typed-arrays: 1.0.5
-      call-bind: 1.0.2
-      for-each: 0.3.3
-      gopd: 1.2.0
-      has-tostringtag: 1.0.2
-
   is-typed-array@1.1.15:
     dependencies:
       which-typed-array: 1.1.19
@@ -20066,7 +20020,7 @@ snapshots:
 
   is-weakset@2.0.2:
     dependencies:
-      call-bind: 1.0.2
+      call-bind: 1.0.8
       get-intrinsic: 1.3.0
 
   is-weakset@2.0.3:
@@ -20453,7 +20407,7 @@ snapshots:
     dependencies:
       array-includes: 3.1.8
       array.prototype.flat: 1.3.2
-      object.assign: 4.1.5
+      object.assign: 4.1.7
       object.values: 1.2.0
 
   keccak@3.0.3:
@@ -21477,24 +21431,10 @@ snapshots:
 
   object-is@1.1.5:
     dependencies:
-      call-bind: 1.0.2
-      define-properties: 1.2.0
-
-  object-keys@1.1.1: {}
-
-  object.assign@4.1.4:
-    dependencies:
-      call-bind: 1.0.2
-      define-properties: 1.2.0
-      has-symbols: 1.1.0
-      object-keys: 1.1.1
-
-  object.assign@4.1.5:
-    dependencies:
       call-bind: 1.0.8
       define-properties: 1.2.1
-      has-symbols: 1.1.0
-      object-keys: 1.1.1
+
+  object-keys@1.1.1: {}
 
   object.assign@4.1.7:
     dependencies:
@@ -22305,8 +22245,8 @@ snapshots:
 
   regexp.prototype.flags@1.5.0:
     dependencies:
-      call-bind: 1.0.2
-      define-properties: 1.2.0
+      call-bind: 1.0.8
+      define-properties: 1.2.1
       functions-have-names: 1.2.3
 
   regexp.prototype.flags@1.5.2:
@@ -22675,7 +22615,7 @@ snapshots:
 
   side-channel@1.0.4:
     dependencies:
-      call-bind: 1.0.2
+      call-bind: 1.0.8
       get-intrinsic: 1.3.0
       object-inspect: 1.12.3
 
@@ -23817,15 +23757,6 @@ snapshots:
       get-proto: 1.0.1
       gopd: 1.2.0
       has-tostringtag: 1.0.2
-
-  which-typed-array@1.1.9:
-    dependencies:
-      available-typed-arrays: 1.0.5
-      call-bind: 1.0.2
-      for-each: 0.3.3
-      gopd: 1.2.0
-      has-tostringtag: 1.0.2
-      is-typed-array: 1.1.10
 
   which@2.0.2:
     dependencies:
